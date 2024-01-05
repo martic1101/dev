@@ -9,7 +9,7 @@
     else {
         var_dump(md5($password));
         if(md5($password)=="0e481756596645574257920728035178" && !strcmp($username,$myflag)){
-            include('flag.php');
+            include_once('flag.php');
             echo "your flag is " . $myflag;
         }
         else{
