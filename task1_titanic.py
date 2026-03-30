@@ -158,5 +158,3 @@ if rf_cv_scores.mean() > dt_cv_scores.mean():
 else:
     print("=> Decision Tree performs better than Random Forest.")
 
-print("\nDone! Use the printed accuracy values to update your PDF report.")
-print("Also include decision_tree.png in your submission or code repo.")
